@@ -1,0 +1,22 @@
+Write a program to read the data from a hotel reservation
+(room number, check-in date and check-out date) and display
+the reservation data, including its duration in days. Then
+read new check-in and check-out dates, update the reservation,
+and display the reservation again with the updated data.
+
+The program must not accept invalid data for the reservation,
+according to the following rules:
+
+- Reservation changes can only occur for future dates
+- The check-out date must be greater than the check-in date
+
+Examples
+Room number: 8021
+Check-in date (dd/MM/yyyy): 23/09/2019
+Check-out date (dd/MM/yyyy): 26/09/2019
+Reservation: Room 8021, check-in: 23/09/2019, check-out: 26/09/2019, 3 nights
+
+Enter data to update the reservation:
+Check-in date (dd/MM/yyyy): 24/09/2019
+Check-out date (dd/MM/yyyy): 29/09/2019
+Reservation: Room 8021, check-in: 24/09/2019, check-out: 29/09/2019, 5 nights
